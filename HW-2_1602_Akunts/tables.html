@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <!-- table>tr*4>td*5 -->
+    <table border="1" cellspacing="0">
+      <caption>
+        My Table
+      </caption>
+      <thead>
+        <tr>
+          <th>1</th>
+          <!--table header cell-->
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td>Age</td>
+          <td>City</td>
+          <td>Street</td>
+        </tr>
+        <tr>
+          <td>Lorem ipsum dolor sit amet.</td>
+          <td>Q</td>
+          <td>C</td>
+          <td>S</td>
+        </tr>
+        <tr>
+          <td>Ivan</td>
+          <td>25</td>
+          <td rowspan="2">Berlin</td>
+          <td>Lorem.</td>
+        </tr>
+        <tr>
+          <td>Tristan</td>
+          <td>30</td>
+          <!-- <td>Berlin</td> -->
+          <td>Lorem.</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" align="right">Sum</td>
+          <!--deleting the qty of cells that are not needed-->
+          <!-- align=left/center/right/justify -->
+          <td>1000</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- tr, thead, tbody,tfoot, caption can be in table tag 
+    In tr can be td or th-->
+    <table></table>
+  </body>
+</html>

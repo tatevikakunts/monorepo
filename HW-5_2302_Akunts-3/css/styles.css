@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-image: url(../images/background.jpg);
+}
+body * {
+  box-sizing: border-box;
+}
+.image {
+  background-image: url(../images/man.jpg);
+  background-size: contain;
+  width: 700px;
+  height: 763px;
+}
+.mini-title {
+  font-family: PT Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 5px;
+}
+.title {
+  color: #3870bb;
+  font-family: Roboto Condensed, sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 79.2px;
+  padding-right: 400px;
+}
+.descr {
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+  line-height: 28.8px;
+  margin-top: 20px;
+  padding-right: 200px;
+}
+.link {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 18px;
+  margin-bottom: 60px;
+}
+p a {
+  color: black;
+}
+.headlink {
+  background-color: black;
+  color: white;
+  font-family: Oswald, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 24px;
+
+  padding: 10px 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 50px;
+}

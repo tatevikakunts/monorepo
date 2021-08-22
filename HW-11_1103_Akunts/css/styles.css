@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body * {
+  box-sizing: border-box;
+}
+p {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+header {
+  margin-bottom: 5px;
+}
+.mybgcolor {
+  background-color: #e3effb;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.section1 {
+  background-image: url(https://images03.nicepage.io/c461c07a441a5d220e8feb1a/6a991996f93057feb83f5025/bg3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.fresh-food {
+  padding: 20px;
+}
+
+h3.tit-1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #61a734;
+}
+h3.tit-2 {
+  font-family: "Great Vibes", sans-serif;
+  font-size: 90px;
+  font-weight: 300;
+  line-height: 72px;
+  color: #ff5a00;
+  margin-bottom: 30px;
+}
+.tit-2 + p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.button-green {
+  background-color: #61a734;
+  color: white;
+
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 20px 50px;
+  margin-bottom: 20px;
+}
+.section2 {
+  background-color: #61a734;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+h1.green-bg {
+  color: white;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+p.green-bg {
+  color: white;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.organic-icon {
+  margin-top: 30px;
+  font-size: 47px;
+  color: #61a734;
+}
+.organic-icon + h4 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.section3 {
+  height: 1000px;
+  background-image: url(../images/section3-bg-veggies.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.tit-3 {
+  color: #61a734;
+  font-size: 24px;
+  font-weight: 700;
+}
+.tit-4 {
+  color: #ff5a00;
+  font-family: "Great Vibes", sans-serif;
+  font-size: 65px;
+  font-weight: 500;
+}
+.button-orange {
+  background-color: #ff5a00;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 15px 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.rel-block {
+  padding: 30px;
+  position: relative;
+  top: 500px;
+  left: 0;
+}
+.section4 {
+  background-color: #61a734;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 200px;
+  position: relative;
+}
+.section5 {
+  background-color: #f2f2f2;
+  height: 1500px;
+  position: relative;
+  margin: 0 auto;
+}
+.section5 > .container {
+  justify-content: center;
+  /* position: absolute;
+  top: -150px; */
+  /* left: 50px; */
+}
+.section5 .row {
+  position: absolute;
+  top: -140px;
+}
+.section5 h4 {
+  color: #61a734;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.image-1 {
+  background-image: url(../images/section4-img1.jpeg);
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.image-2 {
+  background-image: url(../images/section4-img2.jpeg);
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.image-3 {
+  background-image: url(../images/section4-img3.jpeg);
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.image-4 {
+  background-image: url(../images/section4-img4.jpeg);
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.cow-img {
+  background-image: url(../images/section5-cow.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: 50% 50%;
+}
+.happy-animals {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.tit-5 {
+  margin-bottom: 20px;
+  color: #61a734;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.tit-6 {
+  margin-bottom: 20px;
+  color: #ff5a00;
+  font-family: "Great Vibes", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+}
+.section7 {
+  background-color: #e3effb;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.section7 a {
+  color: black;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+}
+.organic-farm-text {
+  padding: 50px;
+}
+.organic-tomatoes {
+  background-image: url(../images/section7-tomatoes.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 600px;
+}
+.grass-pic {
+  background-image: url(../images/section8-grass.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 500px;
+}
+footer {
+  background-color: grey;
+  color: white;
+  height: 100px;
+  font-size: 24px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .section1 {
+    padding-top: 0;
+  }
+  .veggies img {
+    height: 400px;
+  }
+  .fresh-food {
+    padding-top: 20px;
+  }
+  .rel-block {
+    padding: 50px;
+    top: 600px;
+  }
+  .section5 {
+    height: 700px;
+  }
+  .cow-img {
+    height: 650px;
+  }
+
+  .grass-pic {
+    width: 100%;
+    height: 550px;
+  }
+}
+@media (min-width: 992px) {
+  .section1 {
+    height: 600px;
+  }
+  .fresh-food {
+    padding-top: 100px;
+    padding-left: 50px;
+  }
+  .veggies img {
+    height: 600px;
+  }
+  .section2 img {
+    height: 300px;
+    width: 320px;
+  }
+  .rel-block {
+    top: 0;
+    left: 500px;
+    padding: 150px 50px;
+  }
+  .section3 {
+    height: 600px;
+  }
+  .section5 {
+    height: 300px;
+  }
+
+  .grass-pic {
+    width: 50%;
+    height: 550px;
+  }
+  .happy-animals {
+    padding-top: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .cow-img {
+    width: 600px;
+  }
+  .organic-farm-text {
+    padding-top: 150px;
+  }
+  .section2 img {
+    height: 350px;
+    width: 420px;
+  }
+}

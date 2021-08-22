@@ -1,0 +1,84 @@
+body {
+  background-color: #e7e7de;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #008891;
+  text-align: center;
+  font-size: 90px;
+}
+h2 {
+  color: #008891;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
+h3 {
+  color: #008891;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+p {
+  color: #0f3057;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+hr {
+  background-color: #e7e7de;
+  border-style: none;
+  border-bottom-style: dotted;
+  border-bottom-color: #00587a;
+  border-bottom-width: 5px;
+  height: 2px;
+  width: 8%;
+}
+.munich {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.navigation {
+  list-style: none;
+  font-size: 25px;
+}
+
+.content {
+  list-style: none;
+}
+
+a {
+  color: #008891;
+}
+
+table {
+  margin: 0 auto;
+  color: #0f3057;
+  background-color: #f3eac2;
+}
+thead {
+  text-align: center;
+  color: #008891;
+}
+div {
+  text-align: center;
+}
+a {
+  font-style: italic;
+}
+img {
+  width: 400px;
+}
+#coatofarms {
+  width: auto;
+}
+th {
+  color: #00587a;
+}
+.flags {
+  width: 30px;
+  text-align: center;
+}

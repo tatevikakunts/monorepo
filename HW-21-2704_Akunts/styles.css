@@ -1,0 +1,70 @@
+body * {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+body {
+  background-color: #c5d7bd;
+  padding: 50px;
+}
+/* h2 {
+  margin-left: 80px;
+  font-size: 36px;
+  text-align: left;
+  color: #fb743e;
+} */
+
+.info {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+#users {
+  width: 35%;
+  /* line-height: 40px; */
+  color: #383e56;
+}
+#userList {
+  font-size: 28px;
+  font-weight: 700;
+}
+#userList li {
+  border: 2px solid #fb743e;
+  border-radius: 16px;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+}
+#albums {
+  margin-top: 50px;
+  color: #383e56;
+  padding: 20px;
+}
+#albumList {
+  font-size: 20px;
+}
+#albumList li {
+  border: 2px solid #9fb8ad;
+  border-radius: 16px;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+}
+
+#picsList {
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+img {
+  padding: 3px;
+  border: 1px solid #9fb8ad;
+}

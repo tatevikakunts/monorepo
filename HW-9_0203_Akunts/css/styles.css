@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+}
+body * {
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+.main {
+  padding: 100px 0;
+  background-color: #f2f2f2;
+}
+.title {
+  font-family: Roboto, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.icons {
+  list-style-type: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.icon {
+  color: #999999;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+li {
+  width: 225px;
+  text-align: center;
+}
+.card-title {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.card-descr {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.contact-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.form-title {
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.form-subtitle {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.left input {
+  display: block;
+}
+input[type="text"] {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  padding: 15px 12px;
+  margin: 10px 0;
+  border: none;
+}
+textarea {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  padding: 15px 12px;
+  margin: 10px 0;
+  border: none;
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  background-color: transparent;
+  border: 2px solid #454545;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 30px;
+  text-align: left;
+}
+.image {
+  width: 500px;
+}

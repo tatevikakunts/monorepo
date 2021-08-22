@@ -1,0 +1,66 @@
+body {
+  background-color: #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+h1 {
+  color: #f05454;
+  font-size: 120px;
+  font-weight: bolder;
+  text-align: center;
+}
+h2 {
+  color: #f05454;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+h3 {
+  color: #f05454;
+  font-size: 20px;
+}
+h4 {
+  color: #30475e;
+  text-align: center;
+}
+p {
+  color: #222831;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.navigation {
+  color: #30475e;
+  font-size: 40px;
+  font-weight: bolder;
+}
+a {
+  color: #30475e;
+}
+.armenianflag {
+  text-align: center;
+  margin: 0;
+}
+hr {
+  color: #f05454;
+  background-color: #dddddd;
+  border-style: none;
+  border-bottom: #30475e;
+  border-bottom-style: dotted;
+  border-bottom-width: 5px;
+  height: 0;
+  width: 5%;
+}
+.yvnnavi {
+  color: #f05454;
+  font-size: 30px;
+  text-align: left;
+}
+.culturelist {
+  color: #30475e;
+}
+.facts {
+  color: #f05454;
+  font-size: 20px;
+}

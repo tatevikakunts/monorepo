@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+body * {
+  box-sizing: border-box;
+}
+.main {
+  background-image: url(../images/makeup-girl.jpeg);
+  background-position: left;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  height: 700px;
+  position: relative;
+}
+.makeup-descr {
+  font-family: Roboto, sans-serif;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: -30px;
+  padding: 150px 20px 0;
+  text-align: center;
+}
+.mu-title {
+  font-size: 72px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.mu-link {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: white;
+  background-color: #f95ca9;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 280px;
+}
+.mu-info {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 30px;
+}

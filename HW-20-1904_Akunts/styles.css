@@ -1,0 +1,38 @@
+body {
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 52px;
+  color: #0061a8;
+}
+input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #0061a8;
+  border-radius: 4px;
+}
+form {
+  text-align: center;
+}
+select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #0061a8;
+  border-radius: 4px;
+}
+button {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #0061a8;
+  border-radius: 4px;
+  background-color: #0061a8;
+  color: white;
+}
+section {
+  text-align: center;
+  font-size: 24px;
+  font-family: Montserrat;
+  color: #2978b5;
+}

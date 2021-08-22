@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+body * {
+  box-sizing: border-box;
+}
+
+.image {
+  background-image: url(../images/lemons.jpeg);
+  width: 730px;
+  height: 1022px;
+  background-size: cover;
+}
+.mini-title {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #171717;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
+.goal-title {
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #f1c50e;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 39.6px;
+  margin-top: 20px;
+}
+.descr {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  color: #111111;
+  text-align: center;
+  line-height: 25.6px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.left {
+  padding: 0 140px;
+  margin: 0 auto;
+}
+.button {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f1c50e;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  margin: 0 150px;
+  letter-spacing: 2px;
+}

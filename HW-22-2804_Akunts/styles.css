@@ -1,0 +1,131 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 50px;
+  font-family: Nunito, sans-serif;
+}
+#users {
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+#users > div {
+  font-size: 28px;
+  overflow: hidden;
+  background-color: #23049d;
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 16px;
+  margin: 8px 2px;
+}
+.tabcontent {
+  font-size: 20px;
+  color: white;
+  display: none;
+  padding: 100px;
+  height: 600px;
+}
+#tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+}
+#infoBtn {
+  background-color: #72147e;
+  border-radius: 50px 50px 0 0;
+  padding: 10px 0;
+}
+#todoBtn {
+  background-color: #f21170;
+  border-radius: 50px 50px 0 0;
+  padding: 10px 0;
+}
+#postsBtn {
+  background-color: #fa9905;
+  border-radius: 50px 50px 0 0;
+  padding: 10px 0;
+}
+#albumsBtn {
+  background-color: #ff5200;
+  border-radius: 50px 50px 0 0;
+  padding: 20px 0;
+}
+.tablinks {
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 24px;
+  width: 25%;
+}
+
+#infoTab {
+  background-color: #72147e;
+}
+#todosTab {
+  background-color: #f21170;
+}
+#postsTab {
+  background-color: #fa9905;
+}
+#albumsTab {
+  background-color: #ff5200;
+}
+#albumsTab div {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+#albumsTab > div:hover {
+  color: #777;
+}
+
+.show {
+  display: block;
+}
+span {
+  font-style: italic;
+}
+#users > div:hover {
+  background-color: #777;
+}
+
+.hide {
+  display: none;
+}
+.block {
+  position: absolute;
+  top: 10px;
+  padding: 150px;
+  height: auto;
+  background-color: rgba(248, 251, 252, 0.75);
+}
+#photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#photos img {
+  border: 1px solid gray;
+}
+
+#closeBtn {
+  color: gray;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 24px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-weight: 700;
+}
+#closeBtn:hover {
+  color: #23049d;
+  border: 2px solid #23049d;
+}
